@@ -15,30 +15,35 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # 2️⃣ Set up JDK
-      - name: Set up JDK 17
+      # 2️⃣ Set up JDK 17
+      - name: Set up JDK
         uses: actions/setup-java@v4
         with:
           distribution: temurin
           java-version: 17
 
-      # 3️⃣ Install Android SDK and NDK
-      - name: Set up Android SDK
+      # 3️⃣ Install Android SDK, build tools, NDK
+      - name: Setup Android SDK
         uses: android-actions/setup-android@v2
         with:
           api-level: 33
+          build-tools: 33.0.2
           ndk: 24.0.8215888
           cmake: 3.22.1
 
-      # 4️⃣ Make Gradle executable
-      - name: Grant execute permission for gradlew
+      # 4️⃣ Make gradlew executable
+      - name: Grant execute permission
         run: chmod +x gradlew
 
-      # 5️⃣ Build APK
-      - name: Build Debug APK
+      # 5️⃣ Clean previous build
+      - name: Clean build
+        run: ./gradlew clean
+
+      # 6️⃣ Build debug APK with full stacktrace
+      - name: Build APK
         run: ./gradlew assembleDebug --stacktrace
 
-      # 6️⃣ Upload APK artifact
+      # 7️⃣ Upload APK artifact
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
