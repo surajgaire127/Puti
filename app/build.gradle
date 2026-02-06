@@ -12,14 +12,12 @@ android {
 
     defaultConfig {
         applicationId "com.reaper.xxx"
-        minSdkVersion 19 // ← CHANGED FROM 21 to 16 (Android 4.1)
+        minSdkVersion 19
         targetSdkVersion 34
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
-        ndk {
-            abiFilters 'arm64-v8a' // ← Added 32-bit support
-        }
+        // Removed NDK/abiFilters
     }
 
     buildTypes {
@@ -30,13 +28,15 @@ android {
         }
     }
 
-    externalNativeBuild {
-        ndkBuild {
-            path file('src/main/jni/Android.mk')
-        }
-    }
+    // ✅ Removed externalNativeBuild block
+    // externalNativeBuild {
+    //     ndkBuild {
+    //         path file('src/main/jni/Android.mk')
+    //     }
+    // }
 
-    ndkVersion '24.0.8215888'
+    // ✅ Removed NDK version
+    // ndkVersion '24.0.8215888'
 }
 
 dependencies {
