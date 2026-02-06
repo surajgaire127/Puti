@@ -1,0 +1,17 @@
+/storage/emulated/0/POWER_CHEATS/app/src/main/jni/src/Server.cpp:187:106: error: use of undeclared identifier 'screenDist'
+                                                                                    if(pPlayer.aimbot && screenDist < pPlayer.AimFov && mIsFiring > 0) {  
+                                                                                                         ^
+/storage/emulated/0/POWER_CHEATS/app/src/main/jni/src/Server.cpp:187:149: error: expected ')'
+                                                                                    if(pPlayer.aimbot && screenDist < pPlayer.AimFov && mIsFiring > 0) {  
+                                                                                                                                                    ^
+/storage/emulated/0/POWER_CHEATS/app/src/main/jni/src/Server.cpp:187:87: note: to match this '('
+                                                                                    if(pPlayer.aimbot && screenDist < pPlayer.AimFov && mIsFiring > 0) {  
+                                                                                      ^
+/storage/emulated/0/POWER_CHEATS/app/src/main/jni/src/Server.cpp:188:138: error: use of undeclared identifier 'EnemyPosition'
+                                                                                        Quaternion desiredRot = GetRotationToTheLocation(EnemyPosition, 0.0f, CameraPosition);  
+                                                                                                                                         ^
+/storage/emulated/0/POWER_CHEATS/app/src/main/jni/src/Server.cpp:188:159: error: use of undeclared identifier 'CameraPosition'
+                                                                                        Quaternion desiredRot = GetRotationToTheLocation(EnemyPosition, 0.0f, CameraPosition);  
+                                                                                                                                                              ^
+4 errors generated.
+make: *** [/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/build/core/build-binary.mk:424: /storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj/local/arm64-v8a/objs/Fucker/src/Server.o] Error 1

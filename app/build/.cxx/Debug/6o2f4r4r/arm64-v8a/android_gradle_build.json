@@ -1,0 +1,83 @@
+{
+  "buildFiles": [
+    "/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Android.mk",
+    "/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/ndk-build",
+      "NDK_PROJECT_PATH\u003dnull",
+      "APP_BUILD_SCRIPT\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Android.mk",
+      "NDK_APPLICATION_MK\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Application.mk",
+      "APP_ABI\u003darm64-v8a",
+      "NDK_ALL_ABIS\u003darm64-v8a",
+      "NDK_DEBUG\u003d1",
+      "APP_PLATFORM\u003dandroid-19",
+      "NDK_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj",
+      "NDK_LIBS_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/lib",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/ndk-build",
+    "NDK_PROJECT_PATH\u003dnull",
+    "APP_BUILD_SCRIPT\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Android.mk",
+    "NDK_APPLICATION_MK\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Application.mk",
+    "APP_ABI\u003darm64-v8a",
+    "NDK_ALL_ABIS\u003darm64-v8a",
+    "NDK_DEBUG\u003d1",
+    "APP_PLATFORM\u003dandroid-19",
+    "NDK_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj",
+    "NDK_LIBS_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/lib",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "Fucker-debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj",
+        "NDK_LIBS_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/lib",
+        "/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj/local/arm64-v8a/Fucker"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "Fucker",
+      "output": "/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj/local/arm64-v8a/Fucker"
+    },
+    "joudadooh-debug-arm64-v8a": {
+      "buildCommandComponents": [
+        "/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/ndk-build",
+        "NDK_PROJECT_PATH\u003dnull",
+        "APP_BUILD_SCRIPT\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Android.mk",
+        "NDK_APPLICATION_MK\u003d/storage/emulated/0/POWER_CHEATS/app/src/main/jni/Application.mk",
+        "APP_ABI\u003darm64-v8a",
+        "NDK_ALL_ABIS\u003darm64-v8a",
+        "NDK_DEBUG\u003d1",
+        "APP_PLATFORM\u003dandroid-19",
+        "NDK_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj",
+        "NDK_LIBS_OUT\u003d/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/lib",
+        "/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj/local/arm64-v8a/libjoudadooh.so"
+      ],
+      "toolchain": "toolchain-arm64-v8a",
+      "abi": "arm64-v8a",
+      "artifactName": "joudadooh",
+      "output": "/storage/emulated/0/POWER_CHEATS/app/build/intermediates/cxx/Debug/6o2f4r4r/obj/local/arm64-v8a/libjoudadooh.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-arm64-v8a": {
+      "cppCompilerExecutable": "/data/user/0/com.itsaky.androidide/files/home/android-sdk/ndk/24.0.8215888/toolchains/llvm/prebuilt/linux-aarch64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}

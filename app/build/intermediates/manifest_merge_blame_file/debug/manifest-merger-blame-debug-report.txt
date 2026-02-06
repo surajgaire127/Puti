@@ -1,0 +1,91 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.reaper.xxx"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:7:5-67
+11-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+12-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:8:5-77
+12-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:8:22-75
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:9:5-78
+13-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:9:22-76
+14    <uses-permission android:name="android.permission.ACCESS_SUPERUSER" />
+14-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:10:5-75
+14-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:10:22-72
+15    <!-- Add this for Android 12+ -->
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:12:5-77
+16-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:12:22-74
+17
+18    <queries>
+18-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:14:5-16:15
+19        <package android:name="com.dts.freefiremax" />
+19-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:15:9-55
+19-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:15:18-52
+20    </queries>
+21
+22    <application
+22-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:18:5-47:19
+23        android:allowBackup="true"
+23-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:19:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.3.2] /data/user/0/com.itsaky.androidide/files/home/.gradle/caches/transforms-3/e4b70ff988c9e18653079da67b8dbc50/transformed/core-1.3.2/AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:extractNativeLibs="true"
+27        android:icon="@drawable/ic_launcher"
+27-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:20:9-45
+28        android:label="@string/app_name"
+28-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:21:9-41
+29        android:requestLegacyExternalStorage="true"
+29-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:23:9-52
+30        android:theme="@style/AppTheme" >
+30-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:22:9-40
+31        <activity
+31-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:26:9-34:20
+32            android:name="com.reaper.xxx.MainActivity"
+32-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:27:13-41
+33            android:exported="true"
+33-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:28:13-36
+34            android:label="@string/app_name" >
+34-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:29:13-45
+35            <intent-filter>
+35-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:30:13-33:29
+36                <action android:name="android.intent.action.MAIN" />
+36-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:31:17-68
+36-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:31:25-66
+37
+38                <category android:name="android.intent.category.LAUNCHER" />
+38-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:32:17-76
+38-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:32:27-74
+39            </intent-filter>
+40        </activity>
+41
+42        <service
+42-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:36:9-40:55
+43            android:name="com.reaper.xxx.Floater"
+43-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:37:13-36
+44            android:enabled="true"
+44-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:38:13-35
+45            android:exported="false"
+45-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:39:13-37
+46            android:foregroundServiceType="dataSync" />
+46-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:40:13-53
+47
+48        <!-- Add this receiver for libsu -->
+49        <receiver
+49-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:43:9-46:46
+50            android:name="com.topjohnwu.superuser.ipc.RootService$Daemon"
+50-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:44:13-74
+51            android:exported="false" />
+51-->/storage/emulated/0/POWER_CHEATS/app/src/main/AndroidManifest.xml:45:13-37
+52    </application>
+53
+54</manifest>

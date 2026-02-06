@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.reaper.xxx.app-merged_res-15:/drawable_aimcross.png.flat",
+        "source": "com.reaper.xxx.app-main-17:/drawable/aimcross.png"
+    },
+    {
+        "merged": "com.reaper.xxx.app-merged_res-15:/drawable_ic_launcher.png.flat",
+        "source": "com.reaper.xxx.app-main-17:/drawable/ic_launcher.png"
+    },
+    {
+        "merged": "com.reaper.xxx.app-merged_res-15:/layout_activity_main.xml.flat",
+        "source": "com.reaper.xxx.app-main-17:/layout/activity_main.xml"
+    }
+]
